@@ -66,8 +66,14 @@ header nav li {
     display: inline-block;
 }
 
-img {
-    max-width: 100%;
+main img {
+    width: 100%;
+}
+
+main img.pequena {
+    max-width: 350px;
+    margin: auto;
+    display: block;
 }
 
 header h1 {
