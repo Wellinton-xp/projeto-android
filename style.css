@@ -32,29 +32,66 @@ main {
 }
 
 p {
+    margin: 15px 0px;
+    text-align: justify;
     text-indent: 30px;
+    font-size: 1em;
+    line-height: 2em;
 }
 
 header {
     background-image: linear-gradient(to bottom, #00fd728a, #002b12);
     text-align: center;
     color: white;
-    font-family: 'Bebas Neue';
-    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.699);
-    padding: 30px 0px 0px 0px;
-    box-shadow: 0px 3px 5px #002b1280;
+    min-height: 150px;
+    padding-top: 40px;
 }
 
-header p {
+header h1 {
+    font-family: 'Bebas Neue';
+    font-size: 3em;
+    font-weight: normal;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
+}
+
+header > p {
     font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 1.2em;
+    color: white;
+    max-width: 600px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: auto;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
+    padding-bottom: 30px;
 }
 
 header nav {
-    padding-top: 20px;
+    padding: 10px;
     text-align: left;
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: 600;
-    font-size: small;
+    font-weight: bold;
+    font-size: .85em;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.363);
+}
+
+nav a {
+    color: white;
+    font-size: 1.1em;
+    font-weight: bold;
+    text-shadow: 1px 1px 5px #84E1AD;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav a:hover {
+    background-color: #84E1AD;
+    text-decoration: underline;
+    color: black;
+    transition: .5s;
+    border-radius: 4px;
 }
 
 header nav ul {
@@ -76,13 +113,11 @@ main img.pequena {
     display: block;
 }
 
-header h1 {
-    margin: 0px;
-}
-
 main h1, h2 {
     font-family: idroid;
     color: #063D1E;
+    font-weight: normal;
+    font-size: 1.8em;
 }
 
 main h1 {
@@ -103,10 +138,8 @@ main h1 {
     position: relative;
     background-color: #1A5C37;
     height: 0px;
-    margin-left: -15px;
-    margin-right: -10px;
-    margin-bottom: 15px;
-    padding-bottom: 59%;
+    margin: 0px -20px 30px -20px;
+    padding-bottom: 57%;
 }
 
 .video > iframe {
